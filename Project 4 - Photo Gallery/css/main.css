@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+div {
+  text-align: center;
+}
+
+div.img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+div.img img {
+  width: 200px;
+  height: auto;
+  margin: 60px;
+}
+
+header {
+  min-height: 80px;
+  background: #f4f4f4;
+  margin: 0 auto;
+  text-align: center;
+}
+
+INPUT[type="text"] {
+    background: #ffffff;
+    border: 0;
+    border-bottom: 1px solid #c6c6c6;
+    padding: 10px 0 10px 10px;
+    max-width: 460px;
+    margin-top: 15px;
+    font-size: 16pt;
+}

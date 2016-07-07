@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/lightbox/src/css/lightbox.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <header>
+      <input id="search" name="search" type="text" placeholder="Search here...">
+    </header>
+
+    <!-- Image Gallery Below -->
+    <div class="img">
+      <a href="photos/01.jpg" data-lightbox="image-1" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img src="photos/Thumbnails/01.jpg" data-list="hay bales straw" alt="Hay Bales" /></a>
+
+      <a href="photos/02.jpg" data-lightbox="image-1" data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."><img src="photos/Thumbnails/02.jpg" data-list="lake mountatins" alt="Lake" /></a>
+
+      <a href="photos/03.jpg" data-lightbox="image-1" data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below."><img src="photos/Thumbnails/03.jpg" data-list="mountain canyon trees" alt="canyon" /></a>
+
+      <a href="photos/04.jpg" data-lightbox="image-1" data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. "><img src="photos/Thumbnails/04.jpg" data-list="iceberg water snow" alt="Iceberg" /></a>
+
+      <a href="photos/05.jpg" data-lightbox="image-1" data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."><img src="photos/Thumbnails/05.jpg" data-list="desert cliff" alt="Desert" /></a>
+
+      <a href="photos/06.jpg" data-lightbox="image-1" data-title="Fall is coming, I love when the leaves on the trees start to change color."><img src="photos/Thumbnails/06.jpg" data-list="fall leaves trees" alt="Fall" /></a>
+
+      <a href="photos/07.jpg" data-lightbox="image-1" data-title="I drove past this plantation yesterday, everything is so green!"><img src="photos/Thumbnails/07.jpg" data-list="plantation nature green" alt="Plantation" /></a>
+
+      <a href="photos/08.jpg" data-lightbox="image-1" data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!"><img src="photos/Thumbnails/08.jpg" data-list="dunes sand" alt="Dunes" /></a>
+
+      <a href="photos/09.jpg" data-lightbox="image-1" data-title="We enjoyed a quiet stroll down this countryside lane. "><img src="photos/Thumbnails/09.jpg" data-list="countryside nature" alt="Countryside" /></a>
+
+      <a href="photos/10.jpg" data-lightbox="image-1" data-title="Sunset at the coast! The sky turned a lovely shade of orange."><img src="photos/Thumbnails/10.jpg" data-list="sunset orange" alt="Sunset" /></a>
+
+      <a href="photos/11.jpg" data-lightbox="image-1" data-title="I did a tour of a cave today and the view of the landscape below was breathtaking."><img src="photos/Thumbnails/11.jpg" data-list="cave" alt="Cave" /></a>
+
+      <a href="photos/12.jpg" data-lightbox="image-1" data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."><img src="photos/Thumbnails/12.jpg" data-list="meadow bluebells" alt="Bluebells" /></a>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/lightbox/src/js/lightbox.js"></script>
+    <script>
+      lightbox.option({
+        'fadeDuration': 1000,
+        'wrapAround': true,
+        'resizeDuration': 1500
+      })
+    </script>
+    <script src="js/search.js"></script>
+
+  </body>
+
+
+</html>
